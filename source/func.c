@@ -40,6 +40,10 @@ void listenKeyboard(void) {
 
 //gun_x AND gun_y用来确定枪从哪里发出子弹
 void spacePressed(int gun_x = g_gun_x, int gun_y = g_gun_y) {
+    for (i = gun_y + 2; i < g_hight - 1; i++) {
+        drawBullet(gun_x, i--);
+        sleep(
+    }
     
 
 //gun_x AND gun_y用来确定从哪里开始消除并移动枪

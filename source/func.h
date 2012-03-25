@@ -1,3 +1,5 @@
+#ifndef __FUNC__H__
+#define __FUNC__H__
 //画图相关的函数：
 //初始化的时候画边框
 void drawFrame(int hight, int width);
@@ -26,7 +28,7 @@ void spacePressed(void, int gun_x, int gun_y);
 //gun_x AND gun_y用来确定从哪里开始消除并移动枪
 void directionPressed(void, int gun_x, int gun_y);
 
-
+#endif
 
 
 

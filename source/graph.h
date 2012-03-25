@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+#ifndef __GRAPH__H__
+#define __GRAPH__H__
+
 
 void clrscr(void) {
   int i;
@@ -50,3 +53,5 @@ int gotoxy(int x, int y) {
 
   return 0;
 }
+
+#endif

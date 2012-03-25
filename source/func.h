@@ -12,6 +12,11 @@ void drawAllBees(int** bee_position, int hight, int width);
 void drawGun(int gun_x, int gun_y);
 
 void cleanGun(int gun_x, int gun_y);
+
+void drawBullet(int bullet_x, int bullet_y);
+void cleanBullet(int bullet_x, int bullet_y);
+
+
 //根据单个小蜜蜂的位置把它在屏幕上删除掉
 void killBee(int bee_x, int bee_y);
 
@@ -23,10 +28,10 @@ void killBee(int bee_x, int bee_y);
 void listenKeyboard(void);
 
 //gun_x AND gun_y用来确定枪从哪里发出子弹
-void spacePressed(void, int gun_x, int gun_y);
+void spacePressed(int gun_x, int gun_y);
 
 //gun_x AND gun_y用来确定从哪里开始消除并移动枪
-void directionPressed(void, int gun_x, int gun_y);
+void directionPressed(int gun_x, int gun_y);
 
 #endif
 
